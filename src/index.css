@@ -1,0 +1,60 @@
+body {
+  background-color: #273244;
+  background-image: url('/public/img/asset-background.jpg');
+  background-size: 50% 120%;
+  background-position: right center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+@media (min-width: 769px) {
+  .card {
+    margin-bottom: -90px;
+  }
+}
+@media (max-width: 992px) {
+  .navbar {
+    text-align: center;
+  }
+  .navbar-collapse {
+    justify-content: center;
+  }
+  .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .justify-content-lg-start {
+    justify-content: center !important;
+  }
+  .social-icons {
+    justify-content: center !important;
+  }
+}
+@media (max-width: 766px) {
+  .justify-content-end {
+    justify-content: center !important;
+  }
+  .social-icons {
+    justify-content: center !important;
+  }
+}
+.custom-card {
+  background-image: url(/public/img/smart.png);
+  background-size: 95% 105%;
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-color: #3871ff;
+}
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+.social-icons i {
+  font-size: 1.2rem;
+} 
+.footer-contact {
+  gap: px;
+}
+
+
+
+
